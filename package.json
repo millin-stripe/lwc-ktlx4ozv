@@ -1,63 +1,18 @@
 {
-  "name": "@wcd/millin-stripe.lwc-ktlx4ozv",
-  "version": "0.0.0",
+  "name": "stripe-sample-accept-a-payment",
+  "version": "1.0.0",
+  "description": "Stripe payment sample.",
+  "main": "server.js",
   "scripts": {
-    "serve": "npx wcd-cli@latest serve 5tekJf20WjzQvdVU66yb --open",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "dependencies": {
-    "@stripe/react-stripe-js": "^1.4.0",
-    "@stripe/stripe-js": "^1.11.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/plugin-syntax-jsx": "^7.10.4",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-transform-react-jsx"
-    ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^9.8.0",
-    "postcss-cli": "^7.1.1",
-    "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "customize-cra": "^1.0.0",
-    "react-app-rewired": "^2.1.6",
-    "@babel/preset-react": "^7.10.1"
+  "author": "stripe-samples",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "stripe": "^8.174.0"
   }
 }
