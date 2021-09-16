@@ -5,6 +5,30 @@
     },
     {
       "dir": "src"
+    },
+    {
+      "npm": "stripe"
+    },
+    {
+      "dir": "src"
+    }, 
+    {
+      "npm": "@stripe/stripe-js"
+    },
+    {
+      "npm": "@babel/preset-react"
+    },
+    {
+      "npm": "@babel/core"
+    },
+    {
+      "npm": "@babel/cli"
+    },
+    {
+      "npm": "@babel/preset-env"
+    },
+    {
+      "dir":"src"
     }
   ]
 }
